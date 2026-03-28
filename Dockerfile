@@ -1,6 +1,6 @@
 FROM python
 
-COPY train.py /
+COPY d2clear.py /
 COPY requirements.txt /
 RUN pip install -r requirements.txt
 
